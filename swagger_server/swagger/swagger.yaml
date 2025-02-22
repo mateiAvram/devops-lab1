@@ -111,7 +111,6 @@ components:
       example:
         first_name: first_name
         last_name: last_name
-        student_id: 0
     GradeRecord:
       required:
       - grade
