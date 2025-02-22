@@ -3,10 +3,10 @@
 ### Student Details:
 ---
 
-UvA email: matei.avram2@student.uva.nl
+UvA email:      matei.avram2@student.uva.nl
 
-First Name: Matei
+First Name:     Matei
 
-Last Name: Avram
+Last Name:      Avram
 
-Student no: 15506037 
+Student no:     15506037 
