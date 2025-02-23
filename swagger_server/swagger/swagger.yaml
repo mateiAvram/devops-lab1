@@ -28,7 +28,6 @@ paths:
         explode: false
         schema:
           type: string
-          format: uuid
       responses:
         "200":
           description: Successful operation
@@ -54,13 +53,12 @@ paths:
         style: simple
         explode: false
         schema:
-          type: number
-          format: integer
+          type: string
       responses:
         "200":
           description: OK
         "400":
-          description: Bad request. User ID must be an integer and larger than 0.
+          description: Bad request. User ID must be a UUID string.
         "404":
           description: A user with the specified ID was not found.
       x-openapi-router-controller: swagger_server.controllers.default_controller
@@ -98,8 +96,7 @@ components:
       type: object
       properties:
         student_id:
-          type: number
-          format: integer
+          type: string
         first_name:
           type: string
         last_name:
